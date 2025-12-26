@@ -4,9 +4,7 @@ This is a very rough python script I don’t really program too often anymore.  
 prerequisites
 setup a python IDE
 pip install selenium
-you will also need to have the latest google chrome browser and the chromedriver.exe. You can get the chrome driver that matches
-your version here https://developer.chrome.com/docs/chromedriver/downloads and click on Version Selection page.
-Direct link here: https://googlechromelabs.github.io/chrome-for-testing/
+you will also need to have the latest google chrome browser.
 
 How it works
 It uses the Accounts.csv for the username and passwords to login to each account then one at a time and grab the new token.  It uses selenium to automate the login of each account in google chrome. It opens up a new incognito window.  Logins in through both the account name page and password page and grabs the new Token URL.
